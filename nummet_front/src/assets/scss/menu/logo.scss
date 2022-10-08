@@ -1,0 +1,15 @@
+.logo {
+    color: $green-color;
+    font-family: "Monomaniac One";
+    font-size: 60px;
+
+    user-select: none;
+
+    .logo-row {
+        text-align: center;
+    }
+
+    .logo-row:nth-last-child(1) {
+        margin-top: -40px;
+    }
+}

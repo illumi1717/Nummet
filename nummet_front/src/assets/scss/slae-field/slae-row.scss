@@ -1,0 +1,25 @@
+.slae-row {
+    color: $green-color;
+    display: flex;
+
+    user-select: none;
+
+    font-size: 3.3em;
+    font-family: "Monomaniac One";
+
+    .element--container {
+        display: flex;
+        
+        .element {
+            margin: 0 15px;
+        }
+
+        .element > sub {
+            font-size: .5em;
+        }
+    }
+
+    .result {
+        margin: 0 15px;
+    }
+}

@@ -1,0 +1,19 @@
+.back-button {
+    color: $green-color;
+    font-family: "Monomaniac One";
+    font-size: 4em;
+
+    position: absolute;
+    left: 10px;
+    top: -24px;
+
+    display: flex;
+    align-items: center;
+
+    span {
+        font-size: 0.6em;
+        top: 24px;
+        left: 30px;
+        position: absolute;
+    }
+}

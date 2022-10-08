@@ -1,0 +1,23 @@
+.menu-button {
+    user-select: none;
+
+    padding: 15px 10px;
+    width: 50%;
+    
+    border: 6px solid $green-color;
+    background-color: rgba($color: $green-color, $alpha: .27);
+    
+    text-align: center;
+    color: $green-color;
+    font-family: 'Monomaniac One';
+    font-size: 2em;
+
+    cursor: pointer;
+
+    &:hover {
+        $border-side-size: 20px;
+        border-left: $border-side-size solid $green-color;
+        border-right: $border-side-size solid $green-color;
+        padding-right: -$border-side-size;
+    }
+}

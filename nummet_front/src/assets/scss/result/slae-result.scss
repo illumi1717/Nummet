@@ -1,0 +1,14 @@
+.slae-result {
+    text-align: center;
+    .element {
+        color: $green-color;
+        font-size: 3.3em;
+        font-family: "Monomaniac One";
+        .element--x {
+
+            sub {
+                font-size: 0.5em;
+            }
+        }
+    }
+}

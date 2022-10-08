@@ -1,0 +1,26 @@
+@import "./colors.scss";
+@import "./fonts.scss";
+@import "./preloader/preloader.scss";
+@import "./menu/logo.scss";
+@import "./menu/menu.scss";
+@import "./menu/menu-button.scss";
+@import "./menu/header-text.scss";
+@import "./circle-slider/circle-slider.scss";
+@import "./slae-field/slae-row.scss";
+@import "./matrix/matrix.scss";
+@import "./ui/matrix-input.scss";
+@import "./ui/mini-button.scss";
+@import "./ui/error-message.scss";
+@import "./ui/back-button.scss";
+@import "./result/slae-result.scss";
+@import "./result/inverse-result.scss";
+@import "./result/determinant-result.scss";
+
+@import "./pages/slae-solving-page.scss";
+@import "./pages/matrix-solving-page.scss";
+@import "./pages/result-page.scss";
+
+body {
+    background-color: $bg-color;
+    overflow-x: hidden;
+}

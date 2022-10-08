@@ -1,0 +1,38 @@
+.matrix-page {
+    .dimension-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .sliders {
+            display: flex;
+            justify-content: center;
+    
+            margin-top: 20px;
+    
+            .circle-slider {
+                margin: auto 15px;
+            }
+        }
+
+        .mini-button {
+            margin-top: 10px;
+        }
+    }
+
+    .bottom--menu {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        flex-direction: column;
+
+        .matrix-operations {
+            display: flex;
+            margin-bottom: 5px;
+
+            >.mini-button {
+                margin-right: 5px;
+            }
+        }
+    }
+}

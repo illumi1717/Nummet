@@ -1,0 +1,27 @@
+.mini-button {
+    user-select: none;
+
+    padding: 5px 10px;
+    width: 100px;
+
+    border: 3px solid $green-color;
+    background-color: rgba($color: $green-color, $alpha: .27);
+    
+    text-align: center;
+    color: $green-color;
+    font-family: 'Monomaniac One';
+    font-size: 1.2em;
+
+    transition: all 0.1s ease-in;
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba($color: $green-color, $alpha: 1.0);
+        color: $bg-color;
+    }
+
+    &:active {
+        opacity: 0.5;
+    }
+}

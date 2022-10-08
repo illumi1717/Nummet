@@ -1,0 +1,25 @@
+$slider-width: 100px;
+
+.circle-slider {
+    .slider-value {
+        font-size: 3em;
+        color: $green-color;
+        font-family: "Monomaniac One";
+        width: $slider-width;
+        height: $slider-width;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -$slider-width;
+        z-index: -1;
+    }
+
+    .slider-title {
+        font-size: 3em;
+        color: $green-color;
+        font-family: "Monomaniac One";
+        text-align: center;
+        width: $slider-width;
+        margin-top: -10px;
+    }
+}

@@ -1,0 +1,31 @@
+.error-message {
+    color: $red-color;
+    font-size: 1em;
+    font-family: "Monomaniac One";
+    text-align: center;
+
+    border: 3px solid $red-color;
+
+    padding: 15px 10px;
+    margin-top: 15px;
+
+    position: absolute;
+    right: 15px;
+    top: 0;
+
+    background-color: rgba($color: $red-color, $alpha: .3);
+    small {
+        font-size: 0.5em;
+    }
+}
+
+.error-enter-active,
+.error-leave-active {
+  transition: all 0.3s ease-in-out;
+}
+
+.error-enter-from,
+.error-leave-to {
+  transform: translateX(30px);
+  opacity: 0;
+}
