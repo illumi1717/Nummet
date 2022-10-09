@@ -12,6 +12,10 @@
 - Finding solutions to systems of linear algebraic equations
 - Finding the determinant and the inverse matrix
 
+## Demo
+
+![](https://s7.gifyu.com/images/nummet-demo.gif)
+
 _Functionality will be added..._
 
 _\*if I don't get kicked out of the university*_
